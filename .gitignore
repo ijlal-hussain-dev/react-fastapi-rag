@@ -1,0 +1,73 @@
+==============================
+Git Ignore for react-fastapi-rag
+Full-Stack Python/React Project
+==============================
+------------------------------
+1. Logs & Debugging Files
+------------------------------
+logs/
+.log
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+------------------------------
+2. Dependencies & Build Artifacts
+------------------------------
+Python Virtual Environments
+.venv/
+venv/
+
+
+Python Bytecode and Packaging
+pycache/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+Frontend (Node/Vite) Dependencies and Build
+/azure-chatbot-ui/node_modules/
+/azure-chatbot-ui/dist/
+/azure-chatbot-ui/dist-ssr/
+/azure-chatbot-ui/build/
+/azure-chatbot-ui/out/
+
+------------------------------
+3. Environment/Secret Files
+------------------------------
+Backend Secrets (root directory)
+.env
+
+Frontend Local Configs
+*.local
+/azure-chatbot-ui/.env.local
+/azure-chatbot-ui/.env.development.local
+/azure-chatbot-ui/.env.test.local
+/azure-chatbot-ui/.env.production.local
+
+------------------------------
+4. IDE, OS, and Temp Files
+------------------------------
+OS Generated Files
+.DS_Store
+
+VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+slnx.sqlite
+IntelliJ / PyCharm
+.idea/
+
+Editor/Backup Files
+*.bak
+*.sw?
+*~
+*.suo
+.ntvs
+*.njsproj
+*.sln

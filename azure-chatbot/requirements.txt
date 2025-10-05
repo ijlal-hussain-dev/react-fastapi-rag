@@ -1,0 +1,11 @@
+fastapi[standard]
+reportlab>=3.6.12
+pydantic-settings
+uvicorn
+python-dotenv
+azure-storage-blob
+azure-search-documents
+openai
+aiohttp
+pytest
+pytest-asyncio
