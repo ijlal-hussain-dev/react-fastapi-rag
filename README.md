@@ -1,13 +1,36 @@
-### Azure AI Chatbot Full-Stack Application
-This repository contains a full-stack application for an Azure-powered chatbot. The backend is built with FastAPI (Python) for high performance and integrating with Azure services (Search, Blob Storage), while the frontend is a modern, responsive web application built with React, TypeScript, Vite, and styled using Bootstrap.
+### React-FastAPI RAG: Enterprise-Grade AI Chatbot
 
-🚀 Getting Started
+![Architecture](https://img.shields.io/badge/Architecture-RAG-blue)
+![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688)
+![React](https://img.shields.io/badge/Frontend-React-61DAFB)
+![Azure](https://img.shields.io/badge/Cloud-Azure-0078D4)
+
+This repository provides a production-ready template for a Retrieval-Augmented Generation (RAG) application. It leverages a modern decoupled architecture to deliver high-performance, AI-driven insights from unstructured data.
+
+* **Frontend:** React 18, TypeScript, Vite, and Bootstrap for a type-safe, responsive UI.
+* **Backend:** FastAPI (Python 3.10+) serving as a high-concurrency gateway to Azure AI.
+* **Storage & Search**: Azure Blob Storage for raw data ingestion and Azure AI Search for vector-indexed retrieval
+
+```
+## Technical StackLayer
+
+| Layer                 | Technologies |
+| ----------------------|:-----------------------------------:|
+| User Interface        | React, TypeScript, Vite, Axios      |
+| API Framework         | FastAPI (Pydantic v2, Uvicorn)      |
+| AI Orchestration      | Azure OpenAI / RAG Pattern          |
+| Infrastructure        | Azure Search, Azure Blob Storage    |
+| DevOps                | Dotenv, Virtual Environments, NPM   |
+```
+
+## Getting Started
 Follow these steps to get your local development environment running.
 
-Prerequisites
+**Prerequisites** 
 You will need the following installed on your system:
-Python (3.8+)
-Node.js (18+ recommended)
+* Python (3.8+)
+* Node.js (18+ recommended)
+
 
 #### 1. Backend Setup (FastAPI - Python)
 The backend code is located in the root directory [azure-chatbot].
