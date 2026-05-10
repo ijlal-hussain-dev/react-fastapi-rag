@@ -11,8 +11,8 @@ This repository provides a production-ready template for a Retrieval-Augmented G
 * **Backend:** FastAPI (Python 3.10+) serving as a high-concurrency gateway to Azure AI.
 * **Storage & Search**: Azure Blob Storage for raw data ingestion and Azure AI Search for vector-indexed retrieval
 
-```
-## Technical StackLayer
+
+##  Technical StackLayer
 
 | Layer                 | Technologies |
 | ----------------------|:-----------------------------------:|
@@ -21,7 +21,7 @@ This repository provides a production-ready template for a Retrieval-Augmented G
 | AI Orchestration      | Azure OpenAI / RAG Pattern          |
 | Infrastructure        | Azure Search, Azure Blob Storage    |
 | DevOps                | Dotenv, Virtual Environments, NPM   |
-```
+
 
 ## Getting Started
 Follow these steps to get your local development environment running.
